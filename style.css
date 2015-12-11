@@ -1,0 +1,164 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	transition: all 0.1s ease-in;
+}
+
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+html, body {
+	min-height: 100%;
+}
+html {
+	height: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+body {
+	font: 400 20px/1.3 "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	border: 25px solid #2B81AC;
+	text-align: center;
+	color: #fff;
+	background: #3399CC;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+h1{
+	padding-left: 140px;
+	padding-top: 20px;
+	text-align: left;
+}
+
+.list {
+	display: block;
+	text-align: center;
+	margin: 10px 140px 5px;
+	font-size: 0;
+}
+
+.lisbon {
+	width: 50%;
+	background: #3399CC;
+	padding: 30px 10px;
+	display: inline-block;
+	border: 3px solid #fff;
+	font-size: 18px;
+}
+
+.paris {
+	width: 25%;
+	background: #33CCCC;
+	padding: 30px 10px;
+	display: inline-block;
+	border: 3px solid #fff;
+	font-size: 18px;
+}
+
+.belgrad {
+	width: 25%;
+	background: #996699;
+	padding: 30px 10px;
+	display: inline-block;
+	border: 3px solid #fff;
+	font-size: 18px;
+}
+
+.moscow {
+	width: 25%;
+	background: #C24747;
+	padding: 30px 10px;
+	display: inline-block;
+	border: 3px solid #fff;
+	font-size: 18px;
+}
+
+.telaviv {
+	width: 25%;
+	background: #E2674A;
+	padding: 30px 10px;
+	border: 3px solid #fff;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.cair {
+	width: 25%;
+	background: #FFCC66;
+	padding: 30px 10px;
+	border: 3px solid #fff;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.newyork {
+	width: 25%;
+	background: #99CC99;
+	padding: 30px 10px;
+	border: 3px solid #fff;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.newdel {
+	width: 25%;
+	background: #669999;
+	border: 3px solid #fff;
+	padding: 30px 10px;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.sanfr {
+	width: 50%;
+	background: #CC6699;
+	padding: 30px 10px;
+	border: 3px solid #fff;
+	display: inline-block;
+	font-size: 18px;
+}
+.tokyo {
+	width: 25%;
+	background: #339966;
+	padding: 30px 10px;
+	border: 3px solid #fff;
+	display: inline-block;
+	font-size: 18px;
+}
+.sydney {
+	width: 100%;
+	background: #666699;
+	padding: 30px 10px;
+	border: 3px solid #fff;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.list .descr:after {
+	content: '°C';
+}
+
+.list .descr {
+	font-size: 20px;
+}
+
+ul:hover li:not(:hover) {
+	opacity: 0.8;
+}
+
+.foot {
+	padding: 10px 0 30px 140px;
+	text-align:left;
+	font-size: 20px;
+	background: #3399CC;
+}
